@@ -11,5 +11,3 @@ def init(path=None):
     else:
         os.mkdir(os.path.join(path, '.init'))
         print(f'Директория инициализации {init_dir_path} успешно создана.')
-
-init()
